@@ -1,0 +1,29 @@
+@import 'reset';
+@import 'vars';
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}

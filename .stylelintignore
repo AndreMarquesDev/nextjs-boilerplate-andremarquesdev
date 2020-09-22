@@ -1,0 +1,6 @@
+/node_modules
+/.next
+/out
+/public
+/*.json
+/styles/_reset.scss
