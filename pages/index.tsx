@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import Image from 'next/image';
+// import Image from 'next/image';
 import TestComponent from '../components/TestComponent';
 
 const Home: FC = () => {
@@ -18,18 +18,18 @@ const Home: FC = () => {
             </Head>
             <TestComponent />
 
-            <h1>Test jpg</h1>
+            {/* <h1>Test jpg</h1>
             <Image unsized src="/teste.jpg" />
-            {/* <h1>Test jpg optimized</h1>
-            <Image unsized src="/teste_opt.jpg" /> */}
+            <h1>Test jpg optimized</h1>
+            <Image unsized src="/teste_opt.jpg" />
             <h1>Test jpg dimensions</h1>
             <Image height="200" src="/teste.jpg" width="200" />
             <h1>Test jpg unoptimized</h1>
             <Image unoptimized height="200" src="/teste.jpg" width="200" />
-            {/* <h1>Test png</h1>
-            <Image unsized src="/teste.png" /> */}
+            <h1>Test png</h1>
+            <Image unsized src="/teste.png" />
             <h1>Test webp</h1>
-            <Image unsized src="/teste.webp" />
+            <Image unsized src="/teste.webp" /> */}
 
             <p>--------------------------</p>
             <p>--------------------------</p>
@@ -42,8 +42,8 @@ const Home: FC = () => {
             <h1>Test png</h1>
             <img src="./teste.png" />
             <h1>Test webp</h1>
-            <img src="./teste.webp" /> */}
-            {/* <h1>Test jpg 2</h1>
+            <img src="./teste.webp" />
+            <h1>Test jpg 2</h1>
             <img src={require('../public/teste2.jpg')} />
             <h1>Test jpg 2 to lqip</h1>
             <img src={require('../public/teste2.jpg?lqip')} />
