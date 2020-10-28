@@ -4,7 +4,7 @@ import TestComponent from '../components/TestComponent';
 const Home: FC = () => (
     <div>
         <TestComponent />
-        <h1>Test jpg</h1>
+        {/* <h1>Test jpg</h1>
         <img src="./teste.jpg" />
         <h1>Test jpg optimized</h1>
         <img src="./teste_opt.jpg" />
@@ -27,7 +27,7 @@ const Home: FC = () => (
         <h1>Test png 2</h1>
         <img src={require('../public/teste2.png')} />
         <h1>Test webp 2</h1>
-        <img src={require('../public/teste2.webp')} />
+        <img src={require('../public/teste2.webp')} /> */}
 
         <style jsx>
             {`
